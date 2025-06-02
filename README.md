@@ -121,16 +121,10 @@ sequenceDiagram
 ```
 
 ### Chronological Steps
-```mermaid
-flowchart TD
-    A[1. Pre-process Hebrew legal documents] --> B[2. Translate Hebrew to English]
-    B --> C[3. Summarize English text using LLM]
-    C --> D[4. Sparse vector creation]
-    D --> E[5. Create dense vector FAISS DB]
-    E --> F[6. Human evaluation of case similarity]
-    F --> G[7. Baseline model - hybrid search]
-    G --> H[8. RAG-based Q&A system]
-```
+
+<div style="text-align: center; margin-right: 10px; margin-left: auto; margin-right: auto; width: 100%">
+    <img src="images/lcsd_pipeline_steps.png"  alt="Project design" style="width: 30%;" />
+</div>
 
 ### Pipeline Description
 1. `lcsd_pre_processing.ipynb`: Pre-processing of Hebrew legal documents
