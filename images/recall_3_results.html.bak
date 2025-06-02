@@ -1,0 +1,33 @@
+<table border="1" cellspacing="0" cellpadding="4" style="border-collapse: collapse; font-family: calibri; font-size: 12pt; width: 50%;">
+  <caption style="caption-side: top; font-weight: bold; text-align: center; padding: 8px;">
+    Recall@k Scores (k = 3, 5, 10) for ChatGPT 4o and Human Evaluation
+  </caption>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th rowspan="2">Tool</th>
+      <th rowspan="2">Case Number</th>
+      <th colspan="3">Top-3</th>
+      <th colspan="3">Top-5</th>
+      <th colspan="3">Top-10</th>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <th>Avg</th><th>Best</th><th>Worst</th>
+      <th>Avg</th><th>Best</th><th>Worst</th>
+      <th>Avg</th><th>Best</th><th>Worst</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>ChatGPT 4o</td><td>1494/07</td><td>0.538</td><td>0.667</td><td>0.333</td><td>0.590</td><td>0.667</td><td>0.333</td><td>0.590</td><td>0.667</td><td>0.333</td></tr>
+    <tr><td>ChatGPT 4o</td><td>3015/09</td><td>0.462</td><td>0.667</td><td>0.333</td><td>0.462</td><td>0.667</td><td>0.333</td><td>0.667</td><td>0.667</td><td>0.667</td></tr>
+    <tr><td>ChatGPT 4o</td><td>5668/13</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.333</td><td>0.333</td><td>0.333</td><td>0.590</td><td>0.667</td><td>0.333</td></tr>
+    <tr><td>ChatGPT 4o</td><td>6746/98</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.513</td><td>0.667</td><td>0.000</td><td>0.513</td><td>0.667</td><td>0.000</td></tr>
+    <tr><td>ChatGPT 4o</td><td>9376/00</td><td>0.667</td><td>0.667</td><td>0.667</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr>
+    <tr><td></td><td><strong>Avg.</strong></td><td><strong>0.333</strong></td><td><strong>0.400</strong></td><td><strong>0.267</strong></td><td><strong>0.579</strong></td><td><strong>0.667</strong></td><td><strong>0.400</strong></td><td><strong>0.672</strong></td><td><strong>0.733</strong></td><td><strong>0.467</strong></td></tr>
+    <tr><td>Human</td><td>1494/07</td><td>0.538</td><td>0.667</td><td>0.333</td><td>0.795</td><td>1.000</td><td>0.333</td><td>0.846</td><td>1.000</td><td>0.333</td></tr>
+    <tr><td>Human</td><td>3015/09</td><td>0.462</td><td>0.667</td><td>0.333</td><td>0.795</td><td>1.000</td><td>0.667</td><td>1.000</td><td>1.000</td><td>1.000</td></tr>
+    <tr><td>Human</td><td>5668/13</td><td>0.513</td><td>0.667</td><td>0.000</td><td>0.513</td><td>0.667</td><td>0.000</td><td>0.513</td><td>0.667</td><td>0.000</td></tr>
+    <tr><td>Human</td><td>6746/98</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.513</td><td>0.667</td><td>0.000</td><td>0.513</td><td>0.667</td><td>0.000</td></tr>
+    <tr><td>Human</td><td>9376/00</td><td>0.667</td><td>0.667</td><td>0.667</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr>
+    <tr><td></td><td><strong>Avg.</strong></td><td><strong>0.436</strong></td><td><strong>0.533</strong></td><td><strong>0.267</strong></td><td><strong>0.723</strong></td><td><strong>0.867</strong></td><td><strong>0.400</strong></td><td><strong>0.774</strong></td><td><strong>0.867</strong></td><td><strong>0.467</strong></td></tr>
+  </tbody>
+</table>
