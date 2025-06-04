@@ -1,4 +1,4 @@
-<table border="1" cellspacing="0" cellpadding="4" style="border-collapse: collapse; font-family: Calibri, sans-serif; font-size: 12pt; width: 50%; text-align: center;">
+<table border="1" cellspacing="0" cellpadding="4" style="border-collapse: collapse; font-family: Calibri, sans-serif; font-size: 12pt; width: 100%; text-align: center;">
   <caption style="caption-side: top; font-weight: bold; padding: 8px;">
     Precision@k Scores (k = 3, 5, 10) for ChatGPT 4o and Human Evaluation (Average, Best, Worst)
   </caption>
