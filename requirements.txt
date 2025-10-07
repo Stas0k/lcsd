@@ -45,7 +45,7 @@ langchain-aws==0.2.17
 langchain-community==0.3.14
 langchain-core==0.3.47
 langchain-ollama==0.2.2
-langchain-text-splitters==0.3.4
+langchain-text-splitters==1.0.0a1
 langsmith==0.2.10
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
